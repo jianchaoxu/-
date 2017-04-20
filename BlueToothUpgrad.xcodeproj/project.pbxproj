@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B01DF04EE98BA1BD2B464B7 /* libPods-BlueToothUpgrad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B273140DB36E33FEAAE3358 /* libPods-BlueToothUpgrad.a */; };
+		BA5044CC1EA59AB6008B62E8 /* PerpheralVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5044CB1EA59AB6008B62E8 /* PerpheralVC.m */; };
+		BA5044CF1EA5A4BB008B62E8 /* ImageA.bin in Resources */ = {isa = PBXBuildFile; fileRef = BA5044CD1EA5A4BB008B62E8 /* ImageA.bin */; };
+		BA5044D01EA5A4BB008B62E8 /* ImageB.bin in Resources */ = {isa = PBXBuildFile; fileRef = BA5044CE1EA5A4BB008B62E8 /* ImageB.bin */; };
+		BA5044D31EA5EF7E008B62E8 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5044D21EA5EF7E008B62E8 /* MBProgressHUD+NJ.m */; };
+		BA77E41E1EA4C170003A136F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77E41D1EA4C170003A136F /* main.m */; };
+		BA77E4211EA4C170003A136F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77E4201EA4C170003A136F /* AppDelegate.m */; };
+		BA77E4241EA4C170003A136F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77E4231EA4C170003A136F /* ViewController.m */; };
+		BA77E4271EA4C171003A136F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA77E4251EA4C171003A136F /* Main.storyboard */; };
+		BA77E4291EA4C171003A136F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA77E4281EA4C171003A136F /* Assets.xcassets */; };
+		BA77E42C1EA4C171003A136F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA77E42A1EA4C171003A136F /* LaunchScreen.storyboard */; };
+		BA77E4371EA4C171003A136F /* BlueToothUpgradTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77E4361EA4C171003A136F /* BlueToothUpgradTests.m */; };
+		BA77E4421EA4C171003A136F /* BlueToothUpgradUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77E4411EA4C171003A136F /* BlueToothUpgradUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA77E4331EA4C171003A136F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA77E4111EA4C170003A136F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA77E4181EA4C170003A136F;
+			remoteInfo = BlueToothUpgrad;
+		};
+		BA77E43E1EA4C171003A136F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA77E4111EA4C170003A136F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA77E4181EA4C170003A136F;
+			remoteInfo = BlueToothUpgrad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B273140DB36E33FEAAE3358 /* libPods-BlueToothUpgrad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlueToothUpgrad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3BE538DCA9EC910AFB22E0 /* Pods-BlueToothUpgrad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothUpgrad.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothUpgrad/Pods-BlueToothUpgrad.release.xcconfig"; sourceTree = "<group>"; };
+		BA5044CA1EA59AB6008B62E8 /* PerpheralVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerpheralVC.h; sourceTree = "<group>"; };
+		BA5044CB1EA59AB6008B62E8 /* PerpheralVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerpheralVC.m; sourceTree = "<group>"; };
+		BA5044CD1EA5A4BB008B62E8 /* ImageA.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ImageA.bin; sourceTree = "<group>"; };
+		BA5044CE1EA5A4BB008B62E8 /* ImageB.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ImageB.bin; sourceTree = "<group>"; };
+		BA5044D11EA5EF7E008B62E8 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		BA5044D21EA5EF7E008B62E8 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		BA77E4191EA4C170003A136F /* BlueToothUpgrad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothUpgrad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA77E41D1EA4C170003A136F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA77E41F1EA4C170003A136F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA77E4201EA4C170003A136F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA77E4221EA4C170003A136F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA77E4231EA4C170003A136F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA77E4261EA4C171003A136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA77E4281EA4C171003A136F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA77E42B1EA4C171003A136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA77E42D1EA4C171003A136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA77E4321EA4C171003A136F /* BlueToothUpgradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothUpgradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA77E4361EA4C171003A136F /* BlueToothUpgradTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothUpgradTests.m; sourceTree = "<group>"; };
+		BA77E4381EA4C171003A136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA77E43D1EA4C171003A136F /* BlueToothUpgradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothUpgradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA77E4411EA4C171003A136F /* BlueToothUpgradUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothUpgradUITests.m; sourceTree = "<group>"; };
+		BA77E4431EA4C171003A136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55B11C0834C22BA838F24E2 /* Pods-BlueToothUpgrad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothUpgrad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothUpgrad/Pods-BlueToothUpgrad.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA77E4161EA4C170003A136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B01DF04EE98BA1BD2B464B7 /* libPods-BlueToothUpgrad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77E42F1EA4C171003A136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77E43A1EA4C171003A136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07456CA448B3348AD6CC5681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F55B11C0834C22BA838F24E2 /* Pods-BlueToothUpgrad.debug.xcconfig */,
+				5A3BE538DCA9EC910AFB22E0 /* Pods-BlueToothUpgrad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA77E4101EA4C170003A136F = {
+			isa = PBXGroup;
+			children = (
+				BA77E41B1EA4C170003A136F /* BlueToothUpgrad */,
+				BA77E4351EA4C171003A136F /* BlueToothUpgradTests */,
+				BA77E4401EA4C171003A136F /* BlueToothUpgradUITests */,
+				BA77E41A1EA4C170003A136F /* Products */,
+				07456CA448B3348AD6CC5681 /* Pods */,
+				E966C000E4F94869F7D7F25F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA77E41A1EA4C170003A136F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA77E4191EA4C170003A136F /* BlueToothUpgrad.app */,
+				BA77E4321EA4C171003A136F /* BlueToothUpgradTests.xctest */,
+				BA77E43D1EA4C171003A136F /* BlueToothUpgradUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA77E41B1EA4C170003A136F /* BlueToothUpgrad */ = {
+			isa = PBXGroup;
+			children = (
+				BA5044D11EA5EF7E008B62E8 /* MBProgressHUD+NJ.h */,
+				BA5044D21EA5EF7E008B62E8 /* MBProgressHUD+NJ.m */,
+				BA77E41F1EA4C170003A136F /* AppDelegate.h */,
+				BA77E4201EA4C170003A136F /* AppDelegate.m */,
+				BA77E4221EA4C170003A136F /* ViewController.h */,
+				BA77E4231EA4C170003A136F /* ViewController.m */,
+				BA5044CA1EA59AB6008B62E8 /* PerpheralVC.h */,
+				BA5044CB1EA59AB6008B62E8 /* PerpheralVC.m */,
+				BA5044CD1EA5A4BB008B62E8 /* ImageA.bin */,
+				BA5044CE1EA5A4BB008B62E8 /* ImageB.bin */,
+				BA77E4251EA4C171003A136F /* Main.storyboard */,
+				BA77E4281EA4C171003A136F /* Assets.xcassets */,
+				BA77E42A1EA4C171003A136F /* LaunchScreen.storyboard */,
+				BA77E42D1EA4C171003A136F /* Info.plist */,
+				BA77E41C1EA4C170003A136F /* Supporting Files */,
+			);
+			path = BlueToothUpgrad;
+			sourceTree = "<group>";
+		};
+		BA77E41C1EA4C170003A136F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA77E41D1EA4C170003A136F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA77E4351EA4C171003A136F /* BlueToothUpgradTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA77E4361EA4C171003A136F /* BlueToothUpgradTests.m */,
+				BA77E4381EA4C171003A136F /* Info.plist */,
+			);
+			path = BlueToothUpgradTests;
+			sourceTree = "<group>";
+		};
+		BA77E4401EA4C171003A136F /* BlueToothUpgradUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA77E4411EA4C171003A136F /* BlueToothUpgradUITests.m */,
+				BA77E4431EA4C171003A136F /* Info.plist */,
+			);
+			path = BlueToothUpgradUITests;
+			sourceTree = "<group>";
+		};
+		E966C000E4F94869F7D7F25F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B273140DB36E33FEAAE3358 /* libPods-BlueToothUpgrad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA77E4181EA4C170003A136F /* BlueToothUpgrad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA77E4461EA4C171003A136F /* Build configuration list for PBXNativeTarget "BlueToothUpgrad" */;
+			buildPhases = (
+				93FFF3305473F0F7250A826F /* [CP] Check Pods Manifest.lock */,
+				BA77E4151EA4C170003A136F /* Sources */,
+				BA77E4161EA4C170003A136F /* Frameworks */,
+				BA77E4171EA4C170003A136F /* Resources */,
+				36C07FE3900D4D2142344079 /* [CP] Embed Pods Frameworks */,
+				304C26E26281244C30D4CF90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothUpgrad;
+			productName = BlueToothUpgrad;
+			productReference = BA77E4191EA4C170003A136F /* BlueToothUpgrad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA77E4311EA4C171003A136F /* BlueToothUpgradTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA77E4491EA4C171003A136F /* Build configuration list for PBXNativeTarget "BlueToothUpgradTests" */;
+			buildPhases = (
+				BA77E42E1EA4C171003A136F /* Sources */,
+				BA77E42F1EA4C171003A136F /* Frameworks */,
+				BA77E4301EA4C171003A136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA77E4341EA4C171003A136F /* PBXTargetDependency */,
+			);
+			name = BlueToothUpgradTests;
+			productName = BlueToothUpgradTests;
+			productReference = BA77E4321EA4C171003A136F /* BlueToothUpgradTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA77E43C1EA4C171003A136F /* BlueToothUpgradUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA77E44C1EA4C171003A136F /* Build configuration list for PBXNativeTarget "BlueToothUpgradUITests" */;
+			buildPhases = (
+				BA77E4391EA4C171003A136F /* Sources */,
+				BA77E43A1EA4C171003A136F /* Frameworks */,
+				BA77E43B1EA4C171003A136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA77E43F1EA4C171003A136F /* PBXTargetDependency */,
+			);
+			name = BlueToothUpgradUITests;
+			productName = BlueToothUpgradUITests;
+			productReference = BA77E43D1EA4C171003A136F /* BlueToothUpgradUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA77E4111EA4C170003A136F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xjc;
+				TargetAttributes = {
+					BA77E4181EA4C170003A136F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BA77E4311EA4C171003A136F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA77E4181EA4C170003A136F;
+					};
+					BA77E43C1EA4C171003A136F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA77E4181EA4C170003A136F;
+					};
+				};
+			};
+			buildConfigurationList = BA77E4141EA4C170003A136F /* Build configuration list for PBXProject "BlueToothUpgrad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA77E4101EA4C170003A136F;
+			productRefGroup = BA77E41A1EA4C170003A136F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA77E4181EA4C170003A136F /* BlueToothUpgrad */,
+				BA77E4311EA4C171003A136F /* BlueToothUpgradTests */,
+				BA77E43C1EA4C171003A136F /* BlueToothUpgradUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA77E4171EA4C170003A136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5044D01EA5A4BB008B62E8 /* ImageB.bin in Resources */,
+				BA77E42C1EA4C171003A136F /* LaunchScreen.storyboard in Resources */,
+				BA5044CF1EA5A4BB008B62E8 /* ImageA.bin in Resources */,
+				BA77E4291EA4C171003A136F /* Assets.xcassets in Resources */,
+				BA77E4271EA4C171003A136F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77E4301EA4C171003A136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77E43B1EA4C171003A136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304C26E26281244C30D4CF90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueToothUpgrad/Pods-BlueToothUpgrad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36C07FE3900D4D2142344079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueToothUpgrad/Pods-BlueToothUpgrad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93FFF3305473F0F7250A826F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA77E4151EA4C170003A136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5044CC1EA59AB6008B62E8 /* PerpheralVC.m in Sources */,
+				BA5044D31EA5EF7E008B62E8 /* MBProgressHUD+NJ.m in Sources */,
+				BA77E4241EA4C170003A136F /* ViewController.m in Sources */,
+				BA77E4211EA4C170003A136F /* AppDelegate.m in Sources */,
+				BA77E41E1EA4C170003A136F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77E42E1EA4C171003A136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA77E4371EA4C171003A136F /* BlueToothUpgradTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77E4391EA4C171003A136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA77E4421EA4C171003A136F /* BlueToothUpgradUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA77E4341EA4C171003A136F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA77E4181EA4C170003A136F /* BlueToothUpgrad */;
+			targetProxy = BA77E4331EA4C171003A136F /* PBXContainerItemProxy */;
+		};
+		BA77E43F1EA4C171003A136F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA77E4181EA4C170003A136F /* BlueToothUpgrad */;
+			targetProxy = BA77E43E1EA4C171003A136F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA77E4251EA4C171003A136F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77E4261EA4C171003A136F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA77E42A1EA4C171003A136F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77E42B1EA4C171003A136F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA77E4441EA4C171003A136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA77E4451EA4C171003A136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA77E4471EA4C171003A136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55B11C0834C22BA838F24E2 /* Pods-BlueToothUpgrad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueToothUpgrad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SouthStar.BlueToothUpgrad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+			};
+			name = Debug;
+		};
+		BA77E4481EA4C171003A136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3BE538DCA9EC910AFB22E0 /* Pods-BlueToothUpgrad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueToothUpgrad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SouthStar.BlueToothUpgrad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+			};
+			name = Release;
+		};
+		BA77E44A1EA4C171003A136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueToothUpgradTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SouthStar.BlueToothUpgradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToothUpgrad.app/BlueToothUpgrad";
+			};
+			name = Debug;
+		};
+		BA77E44B1EA4C171003A136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueToothUpgradTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SouthStar.BlueToothUpgradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToothUpgrad.app/BlueToothUpgrad";
+			};
+			name = Release;
+		};
+		BA77E44D1EA4C171003A136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueToothUpgradUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SouthStar.BlueToothUpgradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueToothUpgrad;
+			};
+			name = Debug;
+		};
+		BA77E44E1EA4C171003A136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueToothUpgradUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SouthStar.BlueToothUpgradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueToothUpgrad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA77E4141EA4C170003A136F /* Build configuration list for PBXProject "BlueToothUpgrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77E4441EA4C171003A136F /* Debug */,
+				BA77E4451EA4C171003A136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA77E4461EA4C171003A136F /* Build configuration list for PBXNativeTarget "BlueToothUpgrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77E4471EA4C171003A136F /* Debug */,
+				BA77E4481EA4C171003A136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA77E4491EA4C171003A136F /* Build configuration list for PBXNativeTarget "BlueToothUpgradTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77E44A1EA4C171003A136F /* Debug */,
+				BA77E44B1EA4C171003A136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA77E44C1EA4C171003A136F /* Build configuration list for PBXNativeTarget "BlueToothUpgradUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77E44D1EA4C171003A136F /* Debug */,
+				BA77E44E1EA4C171003A136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA77E4111EA4C170003A136F /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - MPBluetoothKit (0.1.0)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.0.0)
+  - MPBluetoothKit (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MPBluetoothKit: 40f9e1c3cf9f5d7357f344560015b8c8cc7f5b53
+
+PODFILE CHECKSUM: d104e934373635f1fcd05f66784b6c23edbf9f17
+
+COCOAPODS: 1.0.1
